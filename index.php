@@ -3,7 +3,7 @@
 	$host = 'localhost:3307';
 	$user = 'briandb';
 	$pass = 'briandb';
-	$db = 'location_db';
+	$db = 'location_tab';
 	$mysqli = new mysqli($host,$user,$pass,$db) or die($mysqli->error);
 
  	$coordinates = array();
@@ -111,6 +111,5 @@
 
     	<!--remenber to put your google map key-->
 	    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-dFHYjTqEVLndbN2gdvXsx09jfJHmNc8&callback=initMap"></script>
-
 	</body>
 </html>
